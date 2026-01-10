@@ -4,7 +4,7 @@ module.exports.config = {
   name: 'tempmail',
   version: '1.0.0',
   role: 0,
-  hasPrefix: false,
+  hasPrefix: true,
   aliases: ['tempmail'],
   description: 'Generate a temporary email or check inbox messages.',
   usage: 'temp gen | temp inbox <email>',
