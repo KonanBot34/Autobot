@@ -4,7 +4,7 @@ module.exports.config = {
   name: 'pastebin',
   version: '1.0.0',
   role: 0,
-  hasPrefix: false,
+  hasPrefix: true,
   aliases: ['paste', 'bin'],
   description: 'Creates a pastebin link from input text.',
   usage: 'pastebin <text>',
