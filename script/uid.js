@@ -2,7 +2,7 @@ module.exports.config = {
   name: 'uid',
   version: '1.0.0',
   role: 0,
-  hasPrefix: false,
+  hasPrefix: true,
   aliases: ['userid', 'getid'],
   description: 'Get user or group ID',
   usage: 'uid [id/reply/group/all]',
