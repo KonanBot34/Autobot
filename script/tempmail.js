@@ -15,7 +15,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event, args }) {
   const senderId = event.senderID;
   const subCommand = args[0];
-  const apiBase = 'https://smfahim.xyz/tempmail';
+  const apiBase = 'https://ioark-apiv1.onrender.com/tempmail/tempmail100';
 
   if (!subCommand) {
     return api.sendMessage(
